@@ -1,0 +1,53 @@
+body {
+    height: auto;
+    background-color: whitesmoke;
+}
+
+
+#fundoP {
+
+    width: 80%;
+    height: 700px;
+    float: right;
+    /*border: 1px solid black;*/
+
+}
+
+#principal {
+    
+    width: 600px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.082);
+
+}
+
+
+.miniatura {
+    
+    border-radius: 30px;
+    width: 150px;
+    margin: 5px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.082);
+    cursor: pointer;
+    
+}
+
+.miniatura:hover{
+
+    transform: scale(1.10);
+    transition: 0.10s;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.644);
+
+}
+
+#container {
+
+    display: flex;
+    flex-direction: column; 
+    width: 200px; 
+    margin-left: 100px;
+    margin-top: 70px;
+    
+}
+
